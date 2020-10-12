@@ -8,6 +8,7 @@ Table of contents
   * [Background](#background)
   * [Script & challenges](#script---challenges)
   * [Test](#test)
+  * [Dependencies](#dependencies)
 
 ## Goals
 
@@ -76,6 +77,10 @@ read numbers as both string and as float, do the filtering based on the floats a
 
 A test case can be run by using the test files provided under test/ :
 ```
-$ python BLAST6_filter.py --input-file example_annotation_table.m8 --min-length 37 --perc-identity 90 > my-output.tsv
+$ python BLAST6_filter.py --input-file test/SRR6158311.m8 --min-length 37 --perc-identity 90 > my-output.tsv
 ```
-Dependencies: python >=3.6, pandas, click
+## Dependencies
+
+- python >=3.6
+- pandas
+- click
