@@ -11,8 +11,8 @@ Table of contents
 
 ## Goals
 
--For each read identifier, obtain the best hit.
--Filter best hits according to an alignment length and identity thresholds
+- For each read identifier, obtain the best hit.
+- Filter best hits according to an alignment length and identity thresholds
 
 Usually hits are listed starting from the best hit, so one way would be to sort the entries on the first column "read_identifier" so that you have unique identifiers (See Background, below). Alterantively, select, for each read identifier, the row containig the lowest "eval" value and the highest "bitscore" value.
 
